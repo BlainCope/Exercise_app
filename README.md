@@ -1,3 +1,5 @@
+![chrome_8kZWzHKVgn](https://github.com/BlainCope/Exercise_app/assets/90635596/ce185f5d-b1b8-414a-888f-71ec42616b89)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
