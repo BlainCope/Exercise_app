@@ -1,0 +1,77 @@
+/* Global page design */
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #1a2634;
+  color: #c1c6cc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Table */
+table {
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+  margin: 2rem auto;
+}
+
+tr th {
+  border: 1px solid #8694ac;
+  color: #d3dae1;
+  padding: 10px;
+  background-color: #1a2634;
+}
+
+tr td {
+  border: 1px solid #8694ac;
+  color: #c1c6cc;
+  padding: 10px;
+  background-color: #1a2634;
+}
+
+/* Form */
+input, button {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #1a2634;
+  color: #c1c6cc;
+  border: 1px solid #8694ac;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Additional styling for better aesthetics */
+h1, h2, h3, h4, h5, h6 {
+  color: #8694ac;
+}
+
+a {
+  color: #8694ac;
+  text-decoration: none;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #8694ac;
+  color: #1a2634;
+  transition: background-color 0.3s ease;
+}
+
+button:active, input[type="submit"]:active {
+  background-color: #c1c6cc;
+  color: #1a2634;
+  transition: background-color 0.3s ease;
+}
+
+.App-header {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
